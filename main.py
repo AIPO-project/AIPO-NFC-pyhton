@@ -58,7 +58,7 @@ if porta:
                 resultado = verificar_tag_no_banco(uid)
                 if resultado:
                     print(f"[ACESSO LIBERADO] TAG reconhecida. Bem-vindo(a), {resultado[0]}!")
-                    # Aqui você poderia acionar um relé, etc.
+                    # Aqui você poderia acionar um relé, etc para hewrb.
                 else:
                     print(f"[ACESSO NEGADO] TAG não reconhecida.")
                     print(f"[SOLICITAÇÃO] UID {uid} precisa ser analisado e cadastrado manualmente.")
